@@ -1,8 +1,8 @@
 
 def f1(func):
-    def wrapper():
+    def wrapper(*args, **kwargs):
         print("Started")
-        func()
+        func(*args, **kwargs)
         print("Ended")
     
     return wrapper
