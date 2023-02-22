@@ -57,19 +57,22 @@
 
 
 # 3
-import time
+# import time
 
-start_time = time.time()
+# start_time = time.time()
 
-A = [0,1,0,2,0,3,4]
-A = A * 10000
-print(len(A))
+# A = [0,1,0,2,0,3,4]
+# A = A * 10000
+# print(len(A))
 
-for i in range(0,len(A)):
-    if A[i] == 0:
-        A.append(A.pop(i))
-# print(A)
+# for i in range(0,len(A)):
+#     if A[i] == 0:
+#         A.append(A.pop(i))
+# # print(A)
 
-import os, psutil; print(psutil.Process(os.getpid()).memory_info().rss / 1024 ** 2)
+# import os, psutil; print(psutil.Process(os.getpid()).memory_info().rss / 1024 ** 2)
 
-print("--- %s seconds ---" % (time.time() - start_time))
+# print("--- %s seconds ---" % (time.time() - start_time))
+
+
+# 4
